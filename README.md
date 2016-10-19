@@ -2,11 +2,11 @@
 
 # 0) install dependencies
 
-### install docker-engine
+install docker-engine
 
-### install psql
+install psql
 
-# 1) pull image and start container
+## 1) pull image and start container
 
 docker run -p 8383:8080 --name 52n-sos -d zhiyuli/52n-sos:4.3.7
 
